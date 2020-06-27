@@ -10,9 +10,10 @@ no need to compile encoding.c  (used for importing functions)
 
 2) Run the code:
 Server:- <executableCode> <ServerPort>
+
 Client:- <executableCode> <ServerIP> <ServerPort>
 example:- ./server.out 7894
-	  ./client.out 127.0.0.1 7894
+	      ./client.out 127.0.0.1 7894
 	Note: 127.0.0.1 is localhost. We can use any other ip used by our computer.
 
 *Some Details of the code:
